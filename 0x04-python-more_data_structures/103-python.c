@@ -2,10 +2,10 @@
 #include <Python.h>
 
 /**
- * print_python_bytes - this Prints bytes information.
+ * print_python_bytes - Prints bytes information
  *
  * @p: Python Object
- * Return: theres no return
+ * Return: no return
  */
 void print_python_bytes(PyObject *p)
 {
