@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 def update_dictionary(a_dictionary, key, value):
-    """Replace or add key/value pairs in a dictionary."""
     a_dictionary[key] = value
-    return (a_dictionary)
 
+# Example usage:
+my_dict = {'a': 1, 'b': 2}
+update_dictionary(my_dict, 'c', 3)  # Add a new key-value pair
+update_dictionary(my_dict, 'b', 4)  # Update an existing key's value
+print(my_dict)
